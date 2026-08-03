@@ -1,4 +1,4 @@
-name: Run Tampa Bay Real Estate Tracker
+name: Run Pasco Real Estate Tracker
 
 on:
   workflow_dispatch: # Allows you to run the script manually anytime with a button click
@@ -43,9 +43,9 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@://github.com"
         
         # Defensive Check: Ensure a CSV was actually generated before running Git commands
-        if ls tampa_bay_rental_tracker_*.csv 1>/dev/null 2>&1; then
+        if ls pasco_rental_tracker_*.csv 1>/dev/null 2>&1; then
           echo "Found generated real estate data files. Proceeding with repository commit."
-          git add tampa_bay_rental_tracker_*.csv
+          git add pasco_rental_tracker_*.csv
           
           # The '|| exit 0' ensures that if the files match exactly what's already there, it won't crash
           git commit -m "Automated real estate data pull: $(date +'%Y-%m-%d')" || exit 0
