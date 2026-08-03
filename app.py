@@ -76,24 +76,19 @@ def save_data_to_csv(records: list, filename_prefix: str) -> str:
 # ==========================================
 
 if __name__ == "__main__":
-    logger.info("Starting Tampa Bay Tri-County Rental Market Tracker run.")
+    logger.info("Starting Pasco County Rental Market Micro-Trends Tracker run.")
     
     # Official RentCast path extension for active rental searches
     target_endpoint = "listings/rental/long-term"  
     
-    # Mapping our targeted counties to prominent cities within them
-    target_cities = {
-        "Pasco": "Land O Lakes",
-        "Hillsborough": "Tampa",
-        "Pinellas": "St. Petersburg"
-    }
+    # Loop through major high-growth and rental cities strictly within Pasco County
+    pasco_cities = ["Land O Lakes", "Wesley Chapel", "New Port Richey", "Zephyrhills"]
     state_target = "FL"
     
     all_extracted_records = []
     
-    # Cycle through our geographic keys
-    for county, city in target_cities.items():
-        logger.info(f"=== Beginning Data Ingestion for {county} County ({city}) ===")
+    for city in pasco_cities:
+        logger.info(f"=== Beginning Data Ingestion for {city}, Pasco County ===")
         
         base_parameters = {
             "city": city,
@@ -103,11 +98,10 @@ if __name__ == "__main__":
         }
         
         current_page = 1
-        max_pages = 1  # Safe baseline test
+        max_pages = 1  # 1 page per city keeps you under free API token limits safely
         
         while current_page <= max_pages:
             page_params = base_parameters.copy()
-            # RentCast uses 'offset' for pagination, calculation moves batches forward
             page_params["offset"] = (current_page - 1) * base_parameters["limit"]
             
             data = fetch_api_data(target_endpoint, query_params=page_params)
@@ -117,7 +111,7 @@ if __name__ == "__main__":
             # Tag each record row with its matching metadata parameters
             for record in data:
                 if isinstance(record, dict):
-                    record["meta_source_county"] = county
+                    record["meta_source_county"] = "Pasco"
                     record["meta_source_city"] = city
                     
             all_extracted_records.extend(data)
@@ -125,4 +119,4 @@ if __name__ == "__main__":
             current_page += 1
 
     # Step 3: Run Storage Ingestion
-    save_data_to_csv(all_extracted_records, filename_prefix="tampa_bay_rental_tracker")
+    save_data_to_csv(all_extracted_records, filename_prefix="pasco_rental_tracker")
