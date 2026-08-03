@@ -1,0 +1,56 @@
+name: Run Tampa Bay Real Estate Tracker
+
+on:
+  workflow_dispatch: # Allows you to run the script manually anytime with a button click
+  schedule:
+    - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
+
+permissions:
+  contents: write # Grants the runner permission to save files back to your repository
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v4
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Execute app.py Ingestion
+      env:
+        # Securely links your environment configurations into the cloud workspace
+        API_BASE_URL: ${{ secrets.API_BASE_URL }}
+        API_BEARER_TOKEN: ${{ secrets.API_BEARER_TOKEN }}
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+        GBQ_DATASET_ID: ${{ secrets.GBQ_DATASET_ID }}
+      run: python app.py
+
+    - name: Commit and Push Daily CSV to Repository
+      run: |
+        # Configure a standard automated GitHub Bot profile to sign the commit
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        
+        # Defensive Check: Ensure a CSV was actually generated before running Git commands
+        if ls tampa_bay_rental_tracker_*.csv 1>/dev/null 2>&1; then
+          echo "Found generated real estate data files. Proceeding with repository commit."
+          git add tampa_bay_rental_tracker_*.csv
+          
+          # The '|| exit 0' ensures that if the files match exactly what's already there, it won't crash
+          git commit -m "Automated real estate data pull: $(date +'%Y-%m-%d')" || exit 0
+          git push
+        else
+          echo "WARNING: No daily CSV file found to save. Skipping repository push step entirely."
+          exit 0
+        fi

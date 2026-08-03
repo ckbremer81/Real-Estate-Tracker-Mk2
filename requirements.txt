@@ -1,0 +1,12 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+
+# Option B: Relational SQL Database Libraries
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # PostgreSQL
+pymysql>=1.1.0          # MySQL
+
+# Option C: Google Cloud BigQuery Warehouse Connectors
+pandas-gbq>=0.20.0
+google-cloud-bigquery>=3.0.0
