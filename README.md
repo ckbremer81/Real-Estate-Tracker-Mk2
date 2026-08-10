@@ -6,7 +6,7 @@ Pulls from the cities of: Land O Lakes, Wesley Chapel, New Port Richey and Zephy
 ## Business Value & Target Metrics
 Real estate decisions require localized, longitudinal data. This automated engine captures daily data snapshots across four distinct market archetypes.
 
-**Database Goal**
+**Database Goal:**
 * Average Rent Shifts: Weekly tracking of regional pricing drift by city.
 * Inventory Velocity: Measuring market demand by tracking how quickly live listings are posted and removed.
 * Price Elasticity: Mapping geographic variations in pricing spikes down to the zip code level.
