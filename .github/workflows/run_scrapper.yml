@@ -2,8 +2,8 @@ name: Run Pasco Real Estate Tracker
 
 on:
   workflow_dispatch: # Allows you to run the script manually anytime with a button click
- # schedule:
-   # - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
+  schedule:
+    - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
 
 permissions:
   contents: write # Grants the runner permission to save files back to your repository
@@ -38,16 +38,18 @@ jobs:
 
     - name: Commit and Push Daily CSV to Repository
       run: |
-        # Configure a standard automated GitHub Bot profile to sign the commit
+       # Configure a standard automated GitHub Bot profile to sign the commit
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
         # Defensive Check: Ensure a CSV was actually generated before running Git commands
         if ls pasco_rental_tracker_*.csv 1>/dev/null 2>&1; then
           echo "Found generated real estate data files. Proceeding with repository commit."
-          git add pasco_rental_tracker_*.csv
           
-          # The '|| exit 0' ensures that if the files match exactly what's already there, it won't crash
+          # Clean, unified staging command targeting both the daily files and the master trends file
+          git add pasco_rental_tracker_*.csv master_pasco_rental_trends.csv
+          
+          # Save changes if new data exists, or exit cleanly if nothing changed
           git commit -m "Automated real estate data pull: $(date +'%Y-%m-%d')" || exit 0
           git push
         else
