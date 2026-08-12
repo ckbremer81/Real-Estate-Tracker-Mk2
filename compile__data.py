@@ -34,11 +34,9 @@ def compile_daily_trackers(input_pattern: str, output_filename: str):
     logger.info(f"Initial raw union complete: Loaded {len(master_df)} total property observations.")
     
     # 3. Clean up the data layer
-    # Drop rows that are completely identical to clean out systemic duplicates
     master_df.drop_duplicates(inplace=True)
     
     # 4. Save the compiled file
-    # This unified sheet is exactly what you will connect straight to Tableau or Power BI
     master_df.to_csv(output_filename, index=False)
     logger.info(f"Data consolidation successful! Saved {len(master_df)} clean rows to {output_filename}")
 
@@ -46,7 +44,6 @@ def compile_daily_trackers(input_pattern: str, output_filename: str):
 if __name__ == "__main__":
     logger.info("Initializing historical data consolidation pipeline.")
     
-    # Target all daily files matching your exact naming convention
     search_criteria = "pasco_rental_tracker_*.csv"
     final_output = "master_pasco_rental_trends.csv"
     
