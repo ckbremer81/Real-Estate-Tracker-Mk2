@@ -2,8 +2,8 @@ name: Run Pasco Real Estate Tracker
 
 on:
   workflow_dispatch: # Allows you to run the script manually anytime with a button click
-  schedule:
-    - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
+ # schedule:
+   # - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
 
 permissions:
   contents: write # Grants the runner permission to save files back to your repository
