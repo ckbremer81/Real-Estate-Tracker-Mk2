@@ -118,5 +118,38 @@ if __name__ == "__main__":
             logger.info(f"Gathered {len(data)} listings from {city} (Page {current_page}).")
             current_page += 1
 
-    # Step 3: Run Storage Ingestion
-    save_data_to_csv(all_extracted_records, filename_prefix="pasco_rental_tracker")
+    # ==========================================
+    # Step 3: Run Orchestrated Storage & Compilation
+    # ==========================================
+    
+    # Action A: Save the fresh daily snapshot file
+    daily_file = save_data_to_csv(all_extracted_records, filename_prefix="pasco_rental_tracker")
+    
+    # Action B: AUTOMATED COMPILATION LAYER
+    # Automatically scan the folder, pull past days, and update the master file
+    import glob
+    
+    logger.info("Initializing automated data compilation layer...")
+    historical_files = sorted(glob.glob("pasco_rental_tracker_*.csv"))
+    
+    if historical_files:
+        logger.info(f"Automated pipeline located {len(historical_files)} historical files to merge.")
+        
+        df_list = []
+        for file in historical_files:
+            # Read each historical sheet safely keeping leading zeros on zips
+            current_df = pd.read_csv(file, dtype={"zipCode": str})
+            df_list.append(current_df)
+            
+        # Stack all historical data vertically into one master DataFrame
+        master_df = pd.concat(df_list, ignore_index=True)
+        
+        # Deduplicate the master file to prevent stacking identical rows day-over-day
+        master_df.drop_duplicates(inplace=True)
+        
+        # Save out the unified master asset file for BI tools
+        master_output = "master_pasco_rental_trends.csv"
+        master_df.to_csv(master_output, index=False)
+        logger.info(f"Successfully compiled and updated master file '{master_output}' with {len(master_df)} unique rows.")
+    else:
+        logger.warning("No historical tracker files found in workspace to compile.")
