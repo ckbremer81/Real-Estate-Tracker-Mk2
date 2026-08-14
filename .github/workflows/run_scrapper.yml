@@ -41,14 +41,22 @@ jobs:
         # 1. Update system package indexing tools
         sudo apt-get update -y
         
-        # 2. Force Ubuntu to install the enterprise rclone package directly from internal repos
+        # 2. Force Ubuntu to install the enterprise rclone package natively
         sudo apt-get install rclone -y
         
-        # 3. Extract your secure secret JSON config file token onto the runner machine workspace
+        # 3. Create the configuration directory path safely
         mkdir -p ~/.config/rclone
-        echo '${{ secrets.RCLONE_CONFIG_JSON }}' > ~/.config/rclone/rclone.conf
         
-        # 4. Stream and overwrite your clean analytical database straight to your Google Drive root folder
+        # 4. Inject a raw, clean text configuration directly bypassing JSON parsing bugs
+        # (Make sure to replace the YOUR_ACTUAL_TOKEN_STRING placeholder below!)
+        cat << 'EOF' > ~/.config/rclone/rclone.conf
+        [gdrive]
+        type = drive
+        scope = drive
+        token = YOUR_ACTUAL_TOKEN_STRING
+        EOF
+        
+        # 5. Stream and overwrite your clean analytical database straight to your Google Drive root folder
         rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
 
     - name: Commit and Push Daily CSV to Repository
