@@ -47,14 +47,9 @@ jobs:
         # 3. Create the configuration directory path safely
         mkdir -p ~/.config/rclone
         
-        # 4. Inject a raw, clean text configuration directly bypassing JSON parsing bugs
-        # (Make sure to replace the YOUR_ACTUAL_TOKEN_STRING placeholder below!)
-        cat << 'EOF' > ~/.config/rclone/rclone.conf
-        [gdrive]
-        type = drive
-        scope = drive
-        token = YOUR_ACTUAL_TOKEN_STRING
-        EOF
+        # 4. SECURE INJECTION: Reads your configuration directly from the vault
+        # This keeps your passwords 100% hidden from the public code view
+        echo '${{ secrets.RCLONE_CONFIG_JSON }}' > ~/.config/rclone/rclone.conf
         
         # 5. Stream and overwrite your clean analytical database straight to your Google Drive root folder
         rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
