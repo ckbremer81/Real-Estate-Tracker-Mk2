@@ -36,9 +36,9 @@ jobs:
         GBQ_DATASET_ID: ${{ secrets.GBQ_DATASET_ID }}
       run: python app.py
  
-    - name: Sync Master File to Google Drive
+    - name: Sync Master File to Google Drive Native Setup
       run: |
-         # 1. Download and install official rclone utility natively
+        # 1. Download and install official rclone utility natively
         sudo curl https://rclone.org | sudo bash
         
         # 2. Extract your secure secret JSON config file token onto the runner machine workspace
@@ -47,6 +47,9 @@ jobs:
         
         # 3. Stream and overwrite your clean analytical database straight to your Google Drive root folder
         rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
+        
+        # 3. Stream and overwrite your clean analytical database straight to your Google Drive root folder
+         rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
 
     - name: Commit and Push Daily CSV to Repository
       run: |
