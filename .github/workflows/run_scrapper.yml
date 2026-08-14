@@ -37,11 +37,16 @@ jobs:
       run: python app.py
  
     - name: Sync Master File to Google Drive
-      uses: rclone/rclone-action@v1
-      with:
-        args: |
-          rc --json '${{ secrets.RCLONE_CONFIG_JSON }}'
-          copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
+      run: |
+        # 1. Download and install official rclone utility into the cloud runner
+        sudo curl https://rclone.org | sudo bash
+        
+        # 2. Extract your secure secret JSON config file token onto the runner machine workspace
+        mkdir -p ~/.config/rclone
+        echo '${{ secrets.RCLONE_CONFIG_JSON }}' > ~/.config/rclone/rclone.conf
+        
+        # 3. Stream and overwrite your clean analytical database straight to your Google Drive root folder
+        rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
 
     - name: Commit and Push Daily CSV to Repository
       run: |
