@@ -179,7 +179,7 @@ if __name__ == "__main__":
         cleaned_df["price"] = pd.to_numeric(cleaned_df["price"], errors='coerce').fillna(0).astype(int)
         
         if "squareFootage" in cleaned_df.columns:
-            cleaned_df["squareFootage"] = pd.to_numeric(cleaned_df["squareFeet"], errors='coerce').fillna(0).astype(int)
+            cleaned_df["squareFootage"] = pd.to_numeric(cleaned_df["squareFootage"], errors='coerce').fillna(0).astype(int)
             
         # 4. Remove exact duplicates to preserve timeseries trend integrity
         cleaned_df.drop_duplicates(subset=["formattedAddress", "price", "city"], keep="first", inplace=True)
