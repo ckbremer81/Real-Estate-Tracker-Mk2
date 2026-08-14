@@ -87,36 +87,36 @@ if __name__ == "__main__":
     
     all_extracted_records = []
     
-    for city in pasco_cities:
-        logger.info(f"=== Beginning Data Ingestion for {city}, Pasco County ===")
+    #for city in pasco_cities:
+    #    logger.info(f"=== Beginning Data Ingestion for {city}, Pasco County ===")
         
-        base_parameters = {
-            "city": city,
-            "state": state_target,
-            "status": "Active",
-            "limit": 25
-        }
+    #    base_parameters = {
+    #        "city": city,
+    #        "state": state_target,
+    #        "status": "Active",
+    #        "limit": 25
+    #    }
         
-        current_page = 1
-        max_pages = 1  # 1 page per city keeps you under free API token limits safely
+    #    current_page = 1
+    #    max_pages = 1 
         
-        while current_page <= max_pages:
-            page_params = base_parameters.copy()
-            page_params["offset"] = (current_page - 1) * base_parameters["limit"]
+    #    while current_page <= max_pages:
+    #        page_params = base_parameters.copy()
+    #        page_params["offset"] = (current_page - 1) * base_parameters["limit"]
             
-            data = fetch_api_data(target_endpoint, query_params=page_params)
-            if not data or not isinstance(data, list):
-                break
+    #        data = fetch_api_data(target_endpoint, query_params=page_params)
+    #        if not data or not isinstance(data, list):
+    #            break
                 
             # Tag each record row with its matching metadata parameters
-            for record in data:
-                if isinstance(record, dict):
-                    record["meta_source_county"] = "Pasco"
-                    record["meta_source_city"] = city
+    #        for record in data:
+    #            if isinstance(record, dict):
+    #                record["meta_source_county"] = "Pasco"
+    #                record["meta_source_city"] = city
                     
-            all_extracted_records.extend(data)
-            logger.info(f"Gathered {len(data)} listings from {city} (Page {current_page}).")
-            current_page += 1
+    #        all_extracted_records.extend(data)
+    #        logger.info(f"Gathered {len(data)} listings from {city} (Page {current_page}).")
+    #        current_page += 1
 
     # ==========================================
     # Step 3: Run Orchestrated Storage & Compilation
@@ -125,8 +125,7 @@ if __name__ == "__main__":
     # Action A: Save the fresh daily snapshot file
     daily_file = save_data_to_csv(all_extracted_records, filename_prefix="pasco_rental_tracker")
     
-    # Action B: AUTOMATED COMPILATION LAYER
-    # Automatically scan the folder, pull past days, and update the master file
+    # Action B: AUTOMATED COMPILATION & TRANSFORMATION LAYER
     import glob
     
     logger.info("Initializing automated data compilation layer...")
@@ -143,13 +142,51 @@ if __name__ == "__main__":
             
         # Stack all historical data vertically into one master DataFrame
         master_df = pd.concat(df_list, ignore_index=True)
+        logger.info(f"Initial raw union complete: Loaded {len(master_df)} total property observations.")
         
-        # Deduplicate the master file to prevent stacking identical rows day-over-day
-        master_df.drop_duplicates(inplace=True)
+        # ==========================================
+        # AUTOMATED DATA CLEANING LAYER
+        # ==========================================
+        logger.info("Executing automated data cleansing routines...")
         
-        # Save out the unified master asset file for BI tools
+        # 1. Column Selection: Keep ONLY fields valuable for analysis
+        columns_to_keep = [
+            "formattedAddress", "city", "zipCode", 
+            "price", "propertyType", "bedrooms", "bathrooms", "squareFootage", 
+            "yearBuilt", "latitude", "longitude", "listedDate"
+        ]
+        
+        # Filter dataframe only picking columns that actually exist in the data
+        existing_columns = [col for col in columns_to_keep if col in master_df.columns]
+        cleaned_df = master_df[existing_columns].copy()
+        
+        # 2. Defensive Cleaning
+        cleaned_df.dropna(subset=["formattedAddress", "price", "zipCode"], inplace=True)
+
+        # ==========================================
+        # DATE FORMATTING OPERATION
+        # ==========================================
+        if "listedDate" in cleaned_df.columns:
+            # Step A: Convert the raw text/timestamp string into a standardized Pandas datetime object
+            cleaned_df["listedDate"] = pd.to_datetime(cleaned_df["listedDate"], errors='coerce')
+            
+            # Step B: Strip out the time components, leaving a clean "YYYY-MM-DD" date format
+            cleaned_df["listedDate"] = cleaned_df["listedDate"].dt.date
+        # ==========================================
+        
+        # 3. Data Type Hardening: Ensures zip codes keep string integrity and prices act as clean integers for charts
+        cleaned_df["zipCode"] = cleaned_df["zipCode"].astype(str).str.split('.').str[0].str.zfill(5)
+        cleaned_df["price"] = pd.to_numeric(cleaned_df["price"], errors='coerce').fillna(0).astype(int)
+        
+        if "squareFootage" in cleaned_df.columns:
+            cleaned_df["squareFootage"] = pd.to_numeric(cleaned_df["squareFeet"], errors='coerce').fillna(0).astype(int)
+            
+        # 4. Remove exact duplicates to preserve timeseries trend integrity
+        cleaned_df.drop_duplicates(subset=["formattedAddress", "price", "city"], keep="first", inplace=True)
+        
+        # Save out the structured, optimized asset file for BI tools
         master_output = "master_pasco_rental_trends.csv"
-        master_df.to_csv(master_output, index=False)
-        logger.info(f"Successfully compiled and updated master file '{master_output}' with {len(master_df)} unique rows.")
+        cleaned_df.to_csv(master_output, index=False)
+        logger.info(f"Clean pipeline complete! Saved {len(cleaned_df)} pristine rows to {master_output}")
     else:
         logger.warning("No historical tracker files found in workspace to compile.")
