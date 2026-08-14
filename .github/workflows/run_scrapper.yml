@@ -2,11 +2,11 @@ name: Run Pasco Real Estate Tracker
 
 on:
   workflow_dispatch: # Allows you to run the script manually anytime with a button click
- # schedule:
- #   - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
+  # schedule:
+  #   - cron: '0 4 * * *' # Executes automatically every single day at 4:00 AM UTC (Midnight EDT)
 
 permissions:
-  contents: write # Grants the runner permission to save files back to your repository
+  contents: write
 
 jobs:
   run-script:
@@ -38,7 +38,7 @@ jobs:
  
     - name: Sync Master File to Google Drive Native Setup
       run: |
-        # 1. Download and install official rclone utility natively
+        # 1. Download and install official rclone utility natively using the correct shell path
         sudo curl https://rclone.org | sudo bash
         
         # 2. Extract your secure secret JSON config file token onto the runner machine workspace
@@ -47,13 +47,10 @@ jobs:
         
         # 3. Stream and overwrite your clean analytical database straight to your Google Drive root folder
         rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
-        
-        # 3. Stream and overwrite your clean analytical database straight to your Google Drive root folder
-         rclone copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
 
     - name: Commit and Push Daily CSV to Repository
       run: |
-       # Configure a standard automated GitHub Bot profile to sign the commit
+        # Configure a standard automated GitHub Bot profile to sign the commit
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
