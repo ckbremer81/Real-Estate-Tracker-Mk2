@@ -38,7 +38,7 @@ jobs:
  
     - name: Sync Master File to Google Drive
       run: |
-        # 1. Download and install official rclone utility using the accurate script path
+         # 1. Download and install official rclone utility natively
         sudo curl https://rclone.org | sudo bash
         
         # 2. Extract your secure secret JSON config file token onto the runner machine workspace
