@@ -87,26 +87,26 @@ if __name__ == "__main__":
     
     all_extracted_records = []
     
-   # for city in pasco_cities:
-   #     logger.info(f"=== Beginning Data Ingestion for {city}, Pasco County ===")
+    #for city in pasco_cities:
+    #    logger.info(f"=== Beginning Data Ingestion for {city}, Pasco County ===")
         
-   #     base_parameters = {
-   #         "city": city,
-   #         "state": state_target,
-   #         "status": "Active",
-   #        "limit": 25
+    #    base_parameters = {
+    #        "city": city,
+    #        "state": state_target,
+    #        "status": "Active",
+    #        "limit": 25
     #    }
         
     #    current_page = 1
     #    max_pages = 1 
         
     #    while current_page <= max_pages:
-            page_params = base_parameters.copy()
-            page_params["offset"] = (current_page - 1) * base_parameters["limit"]
+    #        page_params = base_parameters.copy()
+    #        page_params["offset"] = (current_page - 1) * base_parameters["limit"]
             
     #        data = fetch_api_data(target_endpoint, query_params=page_params)
-            if not data or not isinstance(data, list):
-                break
+    #        if not data or not isinstance(data, list):
+    #            break
                 
             # Tag each record row with its matching metadata parameters
     #        for record in data:
