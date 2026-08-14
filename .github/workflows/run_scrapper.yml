@@ -35,6 +35,13 @@ jobs:
         GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
         GBQ_DATASET_ID: ${{ secrets.GBQ_DATASET_ID }}
       run: python app.py
+ 
+    - name: Sync Master File to Google Drive
+      uses: rclone/rclone-action@v1
+      with:
+        args: |
+          rc --json '${{ secrets.RCLONE_CONFIG_JSON }}'
+          copyto master_pasco_rental_trends.csv gdrive:master_pasco_rental_trends.csv
 
     - name: Commit and Push Daily CSV to Repository
       run: |
