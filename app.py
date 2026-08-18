@@ -123,13 +123,13 @@ if __name__ == "__main__":
     # ==========================================
     
     # Action A: Save the fresh daily snapshot file
-    daily_file = save_data_to_csv(all_extracted_records, filename_prefix="pasco_rental_tracker")
+    daily_file = save_data_to_csv(all_extracted_records, filename_prefix="archive/pasco_rental_tracker")
     
     # Action B: AUTOMATED COMPILATION & TRANSFORMATION LAYER
     import glob
     
     logger.info("Initializing automated data compilation layer...")
-    historical_files = sorted(glob.glob("pasco_rental_tracker_*.csv"))
+    historical_files = sorted(glob.glob("archive/pasco_rental_tracker_*.csv"))
     
     if historical_files:
         logger.info(f"Automated pipeline located {len(historical_files)} historical files to merge.")
