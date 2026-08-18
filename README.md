@@ -4,7 +4,7 @@ An automated, production-grade data ingestion pipeline that tracks daily rental 
 Pulls from the cities of: Land O Lakes, Wesley Chapel, New Port Richey and Zephyrhills
 
 ## Business Value & Target Metrics
-Real estate decisions require localized, longitudinal data. This automated engine captures data snapshots across four distinct market archetypes. Updates on the 1,3,6,8,10,13,15,17,20,22,24,27 days of the month
+Real estate decisions require localized, longitudinal data. This automated engine captures data snapshots across four distinct market archetypes. Updates automatically on the 1,3,6,8,10,13,15,17,20,22,24,27 days of each month.
 
 **Database Goal:**
 * Average Rent Shifts: Weekly tracking of regional pricing drift by city.
