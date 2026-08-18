@@ -60,19 +60,23 @@ jobs:
       run: |
         # Configure a standard automated GitHub Bot profile to sign the commit
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        # Defensive Check: Ensure a CSV was actually generated before running Git commands
-        if ls pasco_rental_tracker_*.csv 1>/dev/null 2>&1; then
+        # 1. Structural Setup: Ensure the archive directory exists in the runner environment
+        mkdir -p archive
+        
+        # 2. Adjusted Defensive Check: Scan inside the archive subfolder for the daily spreadsheet
+        if ls archive/pasco_rental_tracker_*.csv 1>/dev/null 2>&1; then
           echo "Found generated real estate data files. Proceeding with repository commit."
           
-          # Clean, unified staging command targeting both the daily files and the master trends file
-          git add pasco_rental_tracker_*.csv master_pasco_rental_trends.csv
+          # 3. Targeted Staging: Track both the archived raw files and your primary master data table
+          git add archive/pasco_rental_tracker_*.csv master_pasco_rental_trends.csv
           
-          # Save changes if new data exists, or exit cleanly if nothing changed
+          # Save changes if new files exist, or exit cleanly with a green check if nothing changed
           git commit -m "Automated real estate data pull: $(date +'%Y-%m-%d')" || exit 0
           git push
         else
           echo "WARNING: No daily CSV file found to save. Skipping repository push step entirely."
           exit 0
         fi
+        
