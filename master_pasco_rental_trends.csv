@@ -286,3 +286,81 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "5917 Missouri Ave, New Port Richey, FL 34652",New Port Richey,34652,1890,Single Family,3,2.0,1007,,28.249329,-82.71645,2026-08-13
 "9351 Beaufort Ct, New Port Richey, FL 34654",New Port Richey,34654,2075,Single Family,3,2.0,1819,,28.293661,-82.619407,2026-08-13
 "3385 Lapis Lake Dr, Zephyrhills, FL 33541",Zephyrhills,33541,2100,Townhouse,3,3.0,1807,,28.206463,-82.218651,2026-08-13
+"4313 Longshore Dr, Land O Lakes, FL 34639",Land O Lakes,34639,1950,Single Family,3,2.0,1227,1995.0,28.219834,-82.4347,2026-09-07
+"18525 Dajana Ave, Land O Lakes, FL 34638",Land O Lakes,34638,2205,Single Family,3,2.0,1489,,28.299055,-82.50938,2026-09-07
+"25924 Terrawood Loop, Land O Lakes, FL 34639",Land O Lakes,34639,2035,Single Family,3,2.0,1340,,28.2221,-82.387022,2026-09-07
+"18447 Red Willow Way, Land O Lakes, FL 34638",Land O Lakes,34638,2815,Single Family,3,2.0,2150,,28.301633,-82.51064,2026-09-07
+"25151 Seven Rivers Cir, Land O Lakes, FL 34639",Land O Lakes,34639,2165,Single Family,3,2.0,1440,,28.206089,-82.401321,2026-09-07
+"18588 Hunters Meadow Walk, Land O Lakes, FL 34638",Land O Lakes,34638,3560,Single Family,3,2.0,1753,,28.304242,-82.508984,2026-09-07
+"21027 Voyager Blvd, Apt K8, Land O Lakes, FL 34638",Land O Lakes,34638,1299,Condo,2,1.0,800,,28.216344,-82.467837,2026-09-07
+"22744 Robins Nest Ct, Land O Lakes, FL 34639",Land O Lakes,34639,2990,Single Family,4,3.0,2930,,28.214529,-82.439319,2026-09-07
+"4215 Winding River Way, Land O Lakes, FL 34639",Land O Lakes,34639,1775,Townhouse,2,2.5,1296,,28.218003,-82.390341,2026-09-07
+"5845 Sweet William Ter, Land O Lakes, FL 34639",Land O Lakes,34639,2390,Single Family,3,2.0,1840,,28.242667,-82.442022,2026-09-07
+"9253 Black Thorn Loop, Land O Lakes, FL 34638",Land O Lakes,34638,2260,Single Family,4,2.0,1824,2005.0,28.292476,-82.495643,2026-09-07
+"4786 Ballantrae Blvd, Land O Lakes, FL 34638",Land O Lakes,34638,3000,Single Family,3,2.0,2101,2020.0,28.223013,-82.522079,2026-09-07
+"5641 Sheer Bliss Loop, Land O Lakes, FL 34639",Land O Lakes,34639,2325,Single Family,4,2.0,1938,,28.239608,-82.442033,2026-09-07
+"5801 Candytuft Pl, Land O Lakes, FL 34639",Land O Lakes,34639,2695,Single Family,4,3.0,2453,,28.241003,-82.445426,2026-09-07
+"9640 Simeon Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2110,Single Family,3,3.0,1860,,28.297885,-82.503712,2026-09-07
+"24439 Painter Dr, Land O Lakes, FL 34639",Land O Lakes,34639,2165,Single Family,3,2.0,1374,,28.191586,-82.411439,2026-09-07
+"3207 Clover Blossom Cir, Land O Lakes, FL 34638",Land O Lakes,34638,2600,Single Family,4,2.0,1990,,28.203549,-82.528144,2026-09-07
+"4609 Braesgate Ct, Land O Lakes, FL 34639",Land O Lakes,34639,2510,Single Family,4,2.0,1940,,28.223996,-82.437005,2026-09-07
+"17513 Stinchar Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2299,Single Family,3,3.0,1768,,28.19951,-82.526166,2026-09-07
+"18934 Randall Pl, Land O Lakes, FL 34638",Land O Lakes,34638,2055,Single Family,3,2.5,1545,2009.0,28.296631,-82.502448,2026-09-07
+"22477 Bellini Cir, Land O Lakes, FL 34639",Land O Lakes,34639,2910,Single Family,4,3.0,2245,2023.0,28.215544,-82.44547,2026-09-07
+"7726 Bulls Head Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2705,Single Family,5,3.0,3393,,28.269927,-82.306525,2026-09-07
+"6452 Tabogi Trl, Wesley Chapel, FL 33545",Wesley Chapel,33545,1850,Single Family,3,2.0,1292,2005.0,28.250478,-82.315811,2026-09-07
+"26641 Sea Hero Cir, Wesley Chapel, FL 33544",Wesley Chapel,33544,2475,Single Family,4,2.0,1936,,28.238378,-82.375095,2026-09-07
+"30250 Rattana Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,1910,Single Family,3,2.0,1190,,28.250751,-82.315436,2026-09-07
+"29942 Morningmist Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2350,Single Family,4,2.0,1665,1998.0,28.183667,-82.32279,2026-09-07
+"31825 Lily Arbor Way, Wesley Chapel, FL 33545",Wesley Chapel,33545,2600,Single Family,4,2.0,2155,2022.0,28.27873,-82.290042,2026-09-07
+"28546 Tall Grass Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2295,Single Family,3,2.0,1626,,28.171462,-82.343946,2026-09-07
+"1430 Maximilian Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2510,Single Family,3,2.0,1690,1995.0,28.178011,-82.330814,2026-09-07
+"1637 Maximilian Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2500,Single Family,3,2.0,1850,,28.180707,-82.333187,2026-09-07
+"30134 Rattana Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,1990,Single Family,3,2.0,1580,2005.0,28.250765,-82.3173,2026-09-07
+"4944 Cactus Needle Ln, Wesley Chapel, FL 33544",Wesley Chapel,33544,1825,Townhouse,3,2.5,1534,,28.229334,-82.360881,2026-09-07
+"1122 Nashville Dr, Wesley Chapel, FL 33544",Wesley Chapel,33544,3095,Single Family,4,3.5,2634,,28.173533,-82.385582,2026-09-07
+"4904 Cactus Needle Ln, Wesley Chapel, FL 33544",Wesley Chapel,33544,1925,Townhouse,3,3.0,1686,,28.228339,-82.361632,2026-09-07
+"6047 White Sails Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2100,Single Family,3,2.0,1112,2002.0,28.245269,-82.341959,2026-09-07
+"34335 Lodge Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,1800,Single Family,3,2.0,1456,,28.201079,-82.248291,2026-09-07
+"4645 Butler National Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2900,Single Family,3,3.0,2507,2017.0,28.224724,-82.31769,2026-09-07
+"32510 Harmony Oaks Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2649,Single Family,4,2.0,2161,,28.229868,-82.278178,2026-09-07
+"30450 Birdhouse Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2699,Single Family,4,2.5,1944,,28.247103,-82.311991,2026-09-07
+"3922 Washburn Pl, Wesley Chapel, FL 33543",Wesley Chapel,33543,2150,Single Family,3,2.0,1622,2006.0,28.214104,-82.30303,2026-09-07
+"34010 Sorrel Mint Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2095,Single Family,4,2.0,1498,,28.19895,-82.25259,2026-09-07
+"26702 Middleground Loop, Wesley Chapel, FL 33544",Wesley Chapel,33544,2500,Single Family,3,2.0,1870,1999.0,28.236936,-82.374585,2026-09-07
+"1150 Helmsdale Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2995,Single Family,3,3.0,2888,,28.173953,-82.310743,2026-09-07
+"30126 Rattana Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,2125,Single Family,4,2.5,1891,2005.0,28.250733,-82.317572,2026-09-07
+"4148 Savage Station Cir, New Port Richey, FL 34653",New Port Richey,34653,2280,Single Family,3,2.5,1783,,28.21994,-82.695147,2026-09-07
+"9351 Beaufort Ct, New Port Richey, FL 34654",New Port Richey,34654,2250,Single Family,3,2.0,1819,,28.293661,-82.619407,2026-09-07
+"5111 Amulet Dr, New Port Richey, FL 34652",New Port Richey,34652,1500,Condo,2,2.0,1088,,28.233437,-82.733905,2026-09-07
+"12051 Proctor Loop, Apt 2, New Port Richey, FL 34654",New Port Richey,34654,1595,Condo,2,1.0,1008,,28.325932,-82.616274,2026-09-07
+"4609 Audrey Ln, New Port Richey, FL 34652",New Port Richey,34652,1350,Apartment,2,1.0,750,,28.225121,-82.726913,2026-09-07
+"7109 Kirsch Ct, Apt 5, New Port Richey, FL 34653",New Port Richey,34653,1399,Single Family,2,2.0,1096,,28.260813,-82.69719,2026-09-07
+"3814 Linkwood St, New Port Richey, FL 34652",New Port Richey,34652,1595,Single Family,3,1.0,1104,,28.214597,-82.732028,2026-09-07
+"3153 Lodi Dr, New Port Richey, FL 34655",New Port Richey,34655,1725,Single Family,3,2.0,1283,,28.205517,-82.695377,2026-09-07
+"12143 Roseland Dr, New Port Richey, FL 34654",New Port Richey,34654,2345,Single Family,3,2.5,2037,,28.271472,-82.613971,2026-09-07
+"9135 Maynard Ave, New Port Richey, FL 34654",New Port Richey,34654,1495,Single Family,2,1.0,846,,28.282229,-82.663675,2026-09-07
+"5103 Grand Blvd, New Port Richey, FL 34652",New Port Richey,34652,1495,Single Family,2,1.0,744,1960.0,28.233141,-82.723628,2026-09-07
+"3910 Glissade Dr, New Port Richey, FL 34652",New Port Richey,34652,1849,Single Family,3,2.0,1512,,28.215714,-82.744921,2026-09-07
+"7839 Putnam Cir, New Port Richey, FL 34655",New Port Richey,34655,1930,Single Family,3,2.0,1475,,28.207018,-82.684649,2026-09-07
+"5227 Tangerine Dr, New Port Richey, FL 34652",New Port Richey,34652,1400,Single Family,2,1.5,996,1959.0,28.231786,-82.72758,2026-09-07
+"3504 Heron Island Dr, New Port Richey, FL 34655",New Port Richey,34655,2700,Single Family,3,2.5,2315,2006.0,28.208455,-82.675992,2026-09-07
+"2864 Coach Manors Way, New Port Richey, FL 34655",New Port Richey,34655,2349,Single Family,3,2.5,1801,,28.200487,-82.672512,2026-09-07
+"3189 Lytton Hall Dr, Zephyrhills, FL 33540",Zephyrhills,33540,2270,Single Family,4,2.0,1817,2020.0,28.203099,-82.161565,2026-09-07
+"34442 Smart Dr, Zephyrhills, FL 33541",Zephyrhills,33541,1985,Single Family,3,2.0,1224,,28.234806,-82.245003,2026-09-07
+"39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,3410,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-09-07
+"5215 Lochmead Ter, Zephyrhills, FL 33541",Zephyrhills,33541,1650,Single Family,2,2.0,1252,,28.233161,-82.236847,2026-09-07
+"4922 17th St, Zephyrhills, FL 33542",Zephyrhills,33542,1749,Apartment,2,1.0,900,,28.229219,-82.174409,2026-09-07
+"6888 Pebblebrooke Way, Zephyrhills, FL 33541",Zephyrhills,33541,2250,Single Family,3,2.0,1567,,28.256308,-82.225519,2026-09-07
+"4920 17th St, Zephyrhills, FL 33542",Zephyrhills,33542,999,Apartment,1,1.0,450,,28.229233,-82.174409,2026-09-07
+"38944 New Dennison Ln, Zephyrhills, FL 33542",Zephyrhills,33542,1475,Single Family,3,2.0,534,1960.0,28.256956,-82.17202,2026-09-07
+"5410 4th St N, Unit B, Zephyrhills, FL 33542",Zephyrhills,33542,1750,Condo,4,1.0,0,,28.236292,-82.186516,2026-09-07
+"28611 Seashell Ct, Zephyrhills, FL 33545",Zephyrhills,33545,2085,Single Family,3,2.0,1321,,28.246141,-82.342859,2026-09-07
+"5617 10th St, Zephyrhills, FL 33542",Zephyrhills,33542,1350,Single Family,1,1.0,480,,28.239141,-82.180396,2026-09-07
+"28537 Seashell Ct, Zephyrhills, FL 33545",Zephyrhills,33545,2099,Single Family,4,2.0,1424,,28.246143,-82.343766,2026-09-07
+"34990 Gravelly Dr, Zephyrhills, FL 33541",Zephyrhills,33541,2350,Single Family,4,2.5,1870,,28.198706,-82.238166,2026-09-07
+"4568 Sand Dollar Way, Zephyrhills, FL 33541",Zephyrhills,33541,2750,Single Family,4,2.5,2305,,28.224159,-82.201174,2026-09-07
+"6939 Shelby Lynn Way, Zephyrhills, FL 33542",Zephyrhills,33542,2340,Single Family,5,3.0,2256,,28.258099,-82.208208,2026-09-07
+"4406 Plum St, Zephyrhills, FL 33542",Zephyrhills,33542,1350,Single Family,2,1.0,605,,28.221417,-82.182863,2026-09-07
+"6035 Pointe Pleasant Blvd, Zephyrhills, FL 33545",Zephyrhills,33545,2015,Single Family,4,2.0,1415,,28.244949,-82.342735,2026-09-07
+"31702 Spoonflower Cir, Zephyrhills, FL 33545",Zephyrhills,33545,2140,Single Family,3,2.5,1879,,28.259154,-82.292065,2026-09-07
