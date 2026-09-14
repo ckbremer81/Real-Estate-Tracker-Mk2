@@ -403,3 +403,34 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "34406 Smart Dr, Zephyrhills, FL 33541",Zephyrhills,33541,2180,Single Family,3,2.0,1505,,28.233527,-82.245014,2026-09-10
 "1837 Tangledvine Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2445,Single Family,3,2.0,1759,,28.181435,-82.339519,2026-09-10
 "31702 Spoonflower Cir, Zephyrhills, FL 33545",Zephyrhills,33545,2085,Single Family,3,2.5,1879,,28.259154,-82.292065,2026-09-10
+"18588 Hunters Meadow Walk, Land O Lakes, FL 34638",Land O Lakes,34638,2275,Single Family,3,2.0,1753,,28.304242,-82.508984,2026-09-14
+"22721 Beltrees Ct, Land O Lakes, FL 34639",Land O Lakes,34639,2425,Single Family,3,2.0,2057,,28.225601,-82.440026,2026-09-14
+"23331 Key Largo Loop, Land O Lakes, FL 34639",Land O Lakes,34639,3195,Single Family,4,3.0,3077,,28.204954,-82.429722,2026-09-14
+"17513 Stinchar Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2245,Single Family,3,3.0,1768,,28.19951,-82.526166,2026-09-14
+"9253 Black Thorn Loop, Land O Lakes, FL 34638",Land O Lakes,34638,2225,Single Family,4,2.0,1824,2005.0,28.292476,-82.495643,2026-09-14
+"5845 Sweet William Ter, Land O Lakes, FL 34639",Land O Lakes,34639,2270,Single Family,3,2.0,1840,,28.242667,-82.442022,2026-09-14
+"24439 Painter Dr, Land O Lakes, FL 34639",Land O Lakes,34639,2049,Single Family,3,2.0,1374,,28.191586,-82.411439,2026-09-14
+"22407 Bellini Cir, Land O Lakes, FL 34639",Land O Lakes,34639,2875,Single Family,4,3.0,2245,2022.0,28.215575,-82.444074,2026-09-14
+"18934 Randall Pl, Land O Lakes, FL 34638",Land O Lakes,34638,2025,Single Family,3,2.5,1545,2009.0,28.296631,-82.502448,2026-09-14
+"19608 Timberbluff Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2795,Single Family,5,3.0,2657,,28.290322,-82.499082,2026-09-14
+"3807 Lockridge Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2270,Single Family,4,2.0,1476,,28.21282,-82.492157,2026-09-14
+"3874 Fraccareta Way, Wesley Chapel, FL 33543",Wesley Chapel,33543,2749,Single Family,3,2.0,1976,,28.21316,-82.320847,2026-09-14
+"3922 Washburn Pl, Wesley Chapel, FL 33543",Wesley Chapel,33543,2099,Single Family,3,2.0,1622,2006.0,28.214104,-82.30303,2026-09-14
+"29242 Birds Eye Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2245,Single Family,3,2.0,1810,,28.17718,-82.332414,2026-09-14
+"31123 Masena Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2200,Single Family,3,2.0,1300,,28.256613,-82.301318,2026-09-14
+"5626 War Admiral Dr, Wesley Chapel, FL 33544",Wesley Chapel,33544,2045,Single Family,3,2.0,1505,,28.238307,-82.388,2026-09-14
+"26903 Stillbrook Dr, Wesley Chapel, FL 33544",Wesley Chapel,33544,2215,Single Family,3,2.5,1871,,28.20966,-82.37157,2026-09-14
+"5111 Amulet Dr, New Port Richey, FL 34652",New Port Richey,34652,1350,Condo,2,2.0,1088,,28.233437,-82.733905,2026-09-14
+"9351 Beaufort Ct, New Port Richey, FL 34654",New Port Richey,34654,2115,Single Family,3,2.0,1819,,28.293661,-82.619407,2026-09-14
+"5822 Congress St, Apt 105, New Port Richey, FL 34653",New Port Richey,34653,1350,Condo,2,2.0,980,,28.243894,-82.70646,2026-09-14
+"7720 Deer Foot Dr, New Port Richey, FL 34653",New Port Richey,34653,1885,Single Family,2,2.0,1200,,28.233417,-82.686767,2026-09-14
+"4916 Gulf Waters Dr, New Port Richey, FL 34652",New Port Richey,34652,1990,Townhouse,3,2.5,1607,2021.0,28.240394,-82.732445,2026-09-14
+"7839 Putnam Cir, New Port Richey, FL 34655",New Port Richey,34655,1849,Single Family,3,2.0,1475,,28.207018,-82.684649,2026-09-14
+"2910 Yellowhammer Way, New Port Richey, FL 34655",New Port Richey,34655,2299,Single Family,3,2.5,1801,,28.201001,-82.673205,2026-09-14
+"3153 Lodi Dr, New Port Richey, FL 34655",New Port Richey,34655,1625,Single Family,3,2.0,1283,,28.205517,-82.695377,2026-09-14
+"7002 Ripple Pond Loop, Zephyrhills, FL 33541",Zephyrhills,33541,1995,Townhouse,3,2.5,1787,2023.0,28.258281,-82.210275,2026-09-14
+"6035 Pointe Pleasant Blvd, Zephyrhills, FL 33545",Zephyrhills,33545,1995,Single Family,4,2.0,1415,,28.244949,-82.342735,2026-09-14
+"5912 Bramble Bush Ct, Zephyrhills, FL 33541",Zephyrhills,33541,2395,Single Family,4,3.0,2243,2006.0,28.243273,-82.23629,2026-09-14
+"32152 Brookstone Dr, Zephyrhills, FL 33545",Zephyrhills,33545,3395,Single Family,5,3.0,3390,,28.228372,-82.28435,2026-09-14
+"36111 Shady Bluff Loop, Zephyrhills, FL 33541",Zephyrhills,33541,2370,Single Family,5,2.5,2118,,28.246964,-82.218634,2026-09-14
+"38621 Rose Ln, Zephyrhills, FL 33542",Zephyrhills,33542,1395,Single Family,2,1.0,1040,,28.244865,-82.177078,2026-09-14
