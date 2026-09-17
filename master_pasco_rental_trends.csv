@@ -451,3 +451,33 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "3078 Bryant Park Dr, New Port Richey, FL 34655",New Port Richey,34655,2325,Single Family,3,2.5,1801,,28.203518,-82.676353,2026-09-15
 "29505 Morningmist Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2315,Single Family,3,2.0,1644,,28.18417,-82.32745,2026-09-15
 "34442 Smart Dr, Zephyrhills, FL 33541",Zephyrhills,33541,1965,Single Family,3,2.0,1224,,28.234806,-82.245003,2026-09-15
+"4313 Longshore Dr, Land O Lakes, FL 34639",Land O Lakes,34639,1840,Single Family,3,2.0,1227,1995.0,28.219834,-82.4347,2026-09-17
+"25924 Terrawood Loop, Land O Lakes, FL 34639",Land O Lakes,34639,2050,Single Family,3,2.0,1340,,28.2221,-82.387022,2026-09-17
+"18447 Red Willow Way, Land O Lakes, FL 34638",Land O Lakes,34638,2580,Single Family,3,2.0,2150,,28.301633,-82.51064,2026-09-17
+"18934 Randall Pl, Land O Lakes, FL 34638",Land O Lakes,34638,1985,Single Family,3,2.5,1545,2009.0,28.296631,-82.502448,2026-09-17
+"1430 Maximilian Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2470,Single Family,4,2.0,1690,1995.0,28.178011,-82.330814,2026-09-17
+"30250 Rattana Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,1835,Single Family,3,2.0,1190,,28.250751,-82.315436,2026-09-17
+"33839 Coddle Ct, Wesley Chapel, FL 33543",Wesley Chapel,33543,2270,Single Family,3,2.0,1620,,28.209017,-82.256394,2026-09-17
+"7726 Bulls Head Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2760,Single Family,5,3.0,3393,,28.269927,-82.306525,2026-09-17
+"28546 Tall Grass Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2175,Single Family,3,2.0,1626,,28.171462,-82.343946,2026-09-17
+"3636 Grecko Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2120,Single Family,3,2.0,1528,,28.210263,-82.270887,2026-09-17
+"26641 Sea Hero Cir, Wesley Chapel, FL 33544",Wesley Chapel,33544,2405,Single Family,4,2.0,1936,,28.238378,-82.375095,2026-09-17
+"26702 Middleground Loop, Wesley Chapel, FL 33544",Wesley Chapel,33544,2350,Single Family,3,2.0,1870,1999.0,28.236936,-82.374585,2026-09-17
+"3922 Washburn Pl, Wesley Chapel, FL 33543",Wesley Chapel,33543,2050,Single Family,3,2.0,1622,2006.0,28.214104,-82.30303,2026-09-17
+"4359 Paraglider Pl, Wesley Chapel, FL 33545",Wesley Chapel,33545,2350,Townhouse,3,2.5,1648,2023.0,28.220631,-82.252295,2026-09-17
+"5121 Dove Dr, New Port Richey, FL 34652",New Port Richey,34652,1650,Single Family,2,2.0,1248,1968.0,28.211828,-82.729432,2026-09-17
+"7720 Deer Foot Dr, New Port Richey, FL 34653",New Port Richey,34653,1930,Single Family,2,2.0,1200,,28.233417,-82.686767,2026-09-17
+"3504 Heron Island Dr, New Port Richey, FL 34655",New Port Richey,34655,2660,Single Family,3,2.5,2315,2006.0,28.208455,-82.675992,2026-09-17
+"4931A Pompano Dr, New Port Richey, FL 34652",New Port Richey,34652,2400,Single Family,2,2.0,1116,,28.230959,-82.739304,2026-09-17
+"7713 Deer Foot Dr, New Port Richey, FL 34653",New Port Richey,34653,2095,Single Family,3,2.0,1755,,28.233578,-82.687308,2026-09-17
+"2864 Coach Manors Way, New Port Richey, FL 34655",New Port Richey,34655,2325,Single Family,3,2.5,1801,,28.200487,-82.672512,2026-09-17
+"8459 Houndstooth Enclave Dr, New Port Richey, FL 34655",New Port Richey,34655,2375,Single Family,3,2.5,2319,,28.201583,-82.674988,2026-09-17
+"3189 Lytton Hall Dr, Zephyrhills, FL 33540",Zephyrhills,33540,2210,Single Family,4,2.0,1817,2020.0,28.203099,-82.161565,2026-09-17
+"6888 Pebblebrooke Way, Zephyrhills, FL 33541",Zephyrhills,33541,2150,Single Family,3,2.0,1567,,28.256308,-82.225519,2026-09-17
+"5225 11th St, Zephyrhills, FL 33542",Zephyrhills,33542,1695,Single Family,3,2.0,796,,28.233456,-82.1761,2026-09-17
+"5617 10th St, Zephyrhills, FL 33542",Zephyrhills,33542,1295,Single Family,1,1.0,480,,28.239141,-82.180396,2026-09-17
+"6939 Shelby Lynn Way, Zephyrhills, FL 33542",Zephyrhills,33542,2280,Single Family,5,3.0,2256,,28.258099,-82.208208,2026-09-17
+"38309 A Ave, Zephyrhills, FL 33542",Zephyrhills,33542,1500,Single Family,2,2.0,948,,28.228936,-82.182959,2026-09-17
+"36111 Shady Bluff Loop, Zephyrhills, FL 33541",Zephyrhills,33541,2310,Single Family,5,2.5,2118,,28.246964,-82.218634,2026-09-17
+"5517 18th St, Zephyrhills, FL 33542",Zephyrhills,33542,1195,Single Family,2,1.0,1372,,28.237615,-82.173872,2026-09-17
+"38627 Rose Ln, Zephyrhills, FL 33542",Zephyrhills,33542,1395,Single Family,2,1.0,0,,28.244817,-82.177306,2026-09-17
