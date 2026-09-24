@@ -541,3 +541,34 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "6035 Pointe Pleasant Blvd, Zephyrhills, FL 33545",Zephyrhills,33545,2070,Single Family,4,2.0,1415,,28.244949,-82.342735,2026-09-22
 "4719 Tangelo Dr, Zephyrhills, FL 33541",Zephyrhills,33541,1750,Single Family,2,2.0,1517,,28.22587,-82.24379,2026-09-22
 "31702 Spoonflower Cir, Zephyrhills, FL 33545",Zephyrhills,33545,1995,Single Family,3,2.5,1879,,28.259154,-82.292065,2026-09-22
+"18136 Cypress Bay Pkwy, Land O Lakes, FL 34638",Land O Lakes,34638,1875,Single Family,3,2.0,1271,,28.302351,-82.515594,2026-09-24
+"18750 Narimore Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2705,Single Family,3,2.0,1702,,28.292675,-82.505317,2026-09-24
+"25151 Seven Rivers Cir, Land O Lakes, FL 34639",Land O Lakes,34639,2075,Single Family,3,2.0,1440,,28.206089,-82.401321,2026-09-24
+"23217 Bayou Grove St, Land O Lakes, FL 34639",Land O Lakes,34639,2295,Single Family,3,2.0,1532,,28.206479,-82.431978,2026-09-24
+"24146 Cross Ln, Land O Lakes, FL 34639",Land O Lakes,34639,2400,Single Family,3,2.0,1608,,28.188647,-82.416422,2026-09-24
+"17513 Stinchar Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2190,Single Family,3,3.0,1768,,28.19951,-82.526166,2026-09-24
+"24439 Painter Dr, Land O Lakes, FL 34639",Land O Lakes,34639,1999,Single Family,3,2.0,1374,,28.191586,-82.411439,2026-09-24
+"19608 Timberbluff Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2695,Single Family,5,3.0,2657,,28.290322,-82.499082,2026-09-24
+"29942 Morningmist Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2305,Single Family,4,2.0,1665,1998.0,28.183667,-82.32279,2026-09-24
+"28546 Tall Grass Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2135,Single Family,3,2.0,1626,,28.171462,-82.343946,2026-09-24
+"3636 Grecko Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2005,Single Family,3,2.0,1528,,28.210263,-82.270887,2026-09-24
+"7726 Bulls Head Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2590,Single Family,5,3.0,3393,,28.269927,-82.306525,2026-09-24
+"6241 Perdita Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,1990,Single Family,3,2.0,1324,,28.247893,-82.312002,2026-09-24
+"26641 Sea Hero Cir, Wesley Chapel, FL 33544",Wesley Chapel,33544,2380,Single Family,4,2.0,1936,,28.238378,-82.375095,2026-09-24
+"7907 Outerbridge St, Wesley Chapel, FL 33545",Wesley Chapel,33545,2775,Single Family,4,4.0,2559,,28.272219,-82.3141,2026-09-24
+"27920 Madison Green Way, Wesley Chapel, FL 33544",Wesley Chapel,33544,2655,Single Family,4,2.5,1977,2026.0,28.255296,-82.356645,2026-09-24
+"1842 Tampa Bay Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2415,Single Family,4,2.0,1709,,28.184061,-82.343224,2026-09-24
+"6821 Aramon Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,2200,Single Family,3,2.0,1496,2004.0,28.256586,-82.298787,2026-09-24
+"4924 Autumn Ridge Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2625,Single Family,3,2.0,1796,2021.0,28.228888,-82.278041,2026-09-24
+"5850 War Admiral Dr, Wesley Chapel, FL 33544",Wesley Chapel,33544,2445,Single Family,4,2.0,1956,,28.24374,-82.389328,2026-09-24
+"4148 Savage Station Cir, New Port Richey, FL 34653",New Port Richey,34653,2225,Single Family,3,2.5,1783,,28.21994,-82.695147,2026-09-24
+"6220 12th Ave, New Port Richey, FL 34653",New Port Richey,34653,1900,Single Family,2,2.0,1050,,28.225694,-82.711464,2026-09-24
+"12159 Colony Lakes Blvd, New Port Richey, FL 34654",New Port Richey,34654,2325,Single Family,4,2.0,1968,,28.333761,-82.61759,2026-09-24
+"5548 James St, New Port Richey, FL 34652",New Port Richey,34652,1495,Single Family,2,1.0,800,,28.240206,-82.723717,2026-09-24
+"5917 Missouri Ave, New Port Richey, FL 34652",New Port Richey,34652,1740,Single Family,3,2.0,1007,,28.249329,-82.71645,2026-09-24
+"12051 Proctor Loop, Apt 2, New Port Richey, FL 34654",New Port Richey,34654,1395,Condo,2,1.0,1008,,28.325932,-82.616274,2026-09-24
+"34442 Smart Dr, Zephyrhills, FL 33541",Zephyrhills,33541,1875,Single Family,3,2.0,1224,,28.234806,-82.245003,2026-09-24
+"6054 Merrifield Dr, Zephyrhills, FL 33541",Zephyrhills,33541,1900,Single Family,3,2.0,1494,2015.0,28.245529,-82.238066,2026-09-24
+"27741 Sugar Loaf Dr, Zephyrhills, FL 33544",Zephyrhills,33544,2615,Single Family,3,2.0,1812,,28.180773,-82.364792,2026-09-24
+"5739 9th St, # 1, Zephyrhills, FL 33542",Zephyrhills,33542,995,Single Family,1,1.0,1040,,28.241226,-82.182655,2026-09-24
+"1837 Tangledvine Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2420,Single Family,3,2.0,1759,,28.181435,-82.339519,2026-09-24
