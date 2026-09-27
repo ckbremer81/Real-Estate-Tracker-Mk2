@@ -572,3 +572,36 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "27741 Sugar Loaf Dr, Zephyrhills, FL 33544",Zephyrhills,33544,2615,Single Family,3,2.0,1812,,28.180773,-82.364792,2026-09-24
 "5739 9th St, # 1, Zephyrhills, FL 33542",Zephyrhills,33542,995,Single Family,1,1.0,1040,,28.241226,-82.182655,2026-09-24
 "1837 Tangledvine Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2420,Single Family,3,2.0,1759,,28.181435,-82.339519,2026-09-24
+"25924 Terrawood Loop, Land O Lakes, FL 34639",Land O Lakes,34639,1950,Single Family,3,2.0,1340,,28.2221,-82.387022,2026-09-27
+"4313 Longshore Dr, Land O Lakes, FL 34639",Land O Lakes,34639,1760,Single Family,3,2.0,1227,1995.0,28.219834,-82.4347,2026-09-27
+"21402 Preservation Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2630,Single Family,4,2.5,2509,,28.239543,-82.462171,2026-09-27
+"18750 Narimore Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2710,Single Family,3,2.0,1702,,28.292675,-82.505317,2026-09-27
+"22721 Beltrees Ct, Land O Lakes, FL 34639",Land O Lakes,34639,2299,Single Family,3,2.0,2057,,28.225601,-82.440026,2026-09-27
+"9253 Black Thorn Loop, Land O Lakes, FL 34638",Land O Lakes,34638,2155,Single Family,4,2.0,1824,2005.0,28.292476,-82.495643,2026-09-27
+"3636 Grecko Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2000,Single Family,3,2.0,1528,,28.210263,-82.270887,2026-09-27
+"7726 Bulls Head Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2595,Single Family,5,3.0,3393,,28.269927,-82.306525,2026-09-27
+"33839 Coddle Ct, Wesley Chapel, FL 33543",Wesley Chapel,33543,2225,Single Family,3,2.0,1620,,28.209017,-82.256394,2026-09-27
+"1430 Maximilian Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2435,Single Family,4,2.0,1690,1995.0,28.178011,-82.330814,2026-09-27
+"6229 Chapel Pines Blvd, Wesley Chapel, FL 33545",Wesley Chapel,33545,2110,Single Family,3,2.0,1440,,28.247877,-82.307031,2026-09-27
+"6047 White Sails Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2000,Single Family,3,2.0,1112,2002.0,28.245269,-82.341959,2026-09-27
+"8471 Lofty Timber Way, Wesley Chapel, FL 33545",Wesley Chapel,33545,1835,Single Family,3,2.5,1464,,28.280634,-82.300785,2026-09-27
+"34196 Astoria Cir, Wesley Chapel, FL 33545",Wesley Chapel,33545,2590,Single Family,3,2.0,2055,,28.261993,-82.254083,2026-09-27
+"6821 Aramon Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,2100,Single Family,3,2.0,1496,2004.0,28.256586,-82.298787,2026-09-27
+"29566 Cedar Waxwing Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2620,Single Family,4,2.5,1977,2022.0,28.256365,-82.325479,2026-09-27
+"31177 Monterey Pine St, Wesley Chapel, FL 33545",Wesley Chapel,33545,1899,Single Family,3,2.5,1464,,28.281581,-82.300795,2026-09-27
+"1900 Rensselaer Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2555,Single Family,3,2.0,1833,2003.0,28.184364,-82.30175,2026-09-27
+"5626 Charles St, New Port Richey, FL 34652",New Port Richey,34652,1395,Single Family,2,1.0,760,,28.241043,-82.724846,2026-09-27
+"5917 Missouri Ave, New Port Richey, FL 34652",New Port Richey,34652,1735,Single Family,3,2.0,1007,,28.249329,-82.71645,2026-09-27
+"7148 Ramor Ln, New Port Richey, FL 34653",New Port Richey,34653,1895,Single Family,3,2.0,1173,,28.261462,-82.712008,2026-09-27
+"8480 Houndstooth Enclave Dr, New Port Richey, FL 34655",New Port Richey,34655,2090,Single Family,3,2.5,1634,,28.201194,-82.674633,2026-09-27
+"4449 Foxboro Dr, New Port Richey, FL 34653",New Port Richey,34653,2300,Single Family,3,2.0,1549,,28.224001,-82.686281,2026-09-27
+"2864 Coach Manors Way, New Port Richey, FL 34655",New Port Richey,34655,2299,Single Family,3,2.5,1801,,28.200487,-82.672512,2026-09-27
+"2910 Yellowhammer Way, New Port Richey, FL 34655",New Port Richey,34655,2275,Single Family,3,2.5,1801,,28.201001,-82.673205,2026-09-27
+"8514 Houndstooth Enclave Dr, New Port Richey, FL 34655",New Port Richey,34655,2090,Single Family,3,2.5,1634,,28.201196,-82.67412,2026-09-27
+"3078 Bryant Park Dr, New Port Richey, FL 34655",New Port Richey,34655,2299,Single Family,3,2.5,1801,,28.203518,-82.676353,2026-09-27
+"28506 Tall Grass Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2785,Single Family,3,2.0,1607,,28.171587,-82.345303,2026-09-27
+"3189 Lytton Hall Dr, Zephyrhills, FL 33540",Zephyrhills,33540,2255,Single Family,4,2.0,1817,2020.0,28.203099,-82.161565,2026-09-27
+"39132 County Rd, 54 Unit 2070, Zephyrhills, FL 33542",Zephyrhills,33542,1495,Single Family,2,2.0,972,1998.0,28.25091,-82.169528,2026-09-27
+"29505 Morningmist Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2295,Single Family,3,2.0,1644,,28.18417,-82.32745,2026-09-27
+"34442 Smart Dr, Zephyrhills, FL 33541",Zephyrhills,33541,1830,Single Family,3,2.0,1224,,28.234806,-82.245003,2026-09-27
+"39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,2160,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-09-27
