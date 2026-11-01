@@ -968,3 +968,48 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "32152 Brookstone Dr, Zephyrhills, FL 33545",Zephyrhills,33545,2915,Single Family,4,2.5,3390,,28.228372,-82.28435,2026-10-26
 "2371 Lanier Rd, Zephyrhills, FL 33541",Zephyrhills,33541,2995,Single Family,6,3.0,3092,,28.198054,-82.239053,2026-10-23
 "7631 Merchantville Cir, Zephyrhills, FL 33540",Zephyrhills,33540,1925,Single Family,3,2.0,1587,,28.268591,-82.179433,2026-09-30
+"23200 Whitney Pl, Land O Lakes, FL 34639",Land O Lakes,34639,1990,Single Family,3,2.0,1470,,28.228141,-82.43231,2026-11-01
+"4603 Bexley Village Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2495,Townhouse,3,3.0,1615,,28.221628,-82.529966,2026-11-01
+"8840 Gallantree Pl, Land O Lakes, FL 34637",Land O Lakes,34637,2050,Townhouse,3,3.0,1061,,28.285479,-82.449153,2026-11-01
+"10328 Hawks Landing Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2400,Single Family,4,3.0,2417,2019.0,28.30756,-82.508255,2026-11-01
+"18625 Hunters Meadow Walk, Land O Lakes, FL 34638",Land O Lakes,34638,2499,Single Family,4,2.0,2043,2018.0,28.304863,-82.508407,2026-10-30
+"5801 Candytuft Pl, Land O Lakes, FL 34639",Land O Lakes,34639,2490,Single Family,4,3.0,2453,,28.241003,-82.445426,2026-10-29
+"24146 Cross Ln, Land O Lakes, FL 34639",Land O Lakes,34639,2215,Single Family,3,2.0,1608,,28.188647,-82.416422,2026-10-28
+"7042 Moss Ledge Run, Land O Lakes, FL 34637",Land O Lakes,34637,2480,Single Family,4,2.0,2091,,28.260023,-82.455356,2026-10-30
+"4609 Braesgate Ct, Land O Lakes, FL 34639",Land O Lakes,34639,2345,Single Family,4,2.0,1940,,28.223996,-82.437005,2026-10-30
+"21027 Monza Loop, Land O Lakes, FL 34638",Land O Lakes,34638,2600,Single Family,4,3.0,2203,,28.255944,-82.478927,2026-10-31
+"33232 Azalea Ridge Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,4700,Single Family,4,4.0,3274,2014.0,28.259197,-82.267236,2026-11-01
+"5855 Count Turf Ln, Wesley Chapel, FL 33544",Wesley Chapel,33544,1900,Single Family,3,2.0,1505,2002.0,28.242642,-82.390462,2026-11-01
+"29433 Birds Eye Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2480,Single Family,3,2.5,1810,,28.177538,-82.329504,2026-10-31
+"4321 Highcroft Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2790,Single Family,5,3.0,2963,,28.220222,-82.257939,2026-10-30
+"27433 St Andrews Ave, Wesley Chapel, FL 33544",Wesley Chapel,33544,2987,Single Family,4,3.0,2222,2023.0,28.246575,-82.362758,2026-10-29
+"4359 Paraglider Pl, Wesley Chapel, FL 33545",Wesley Chapel,33545,2250,Townhouse,3,2.5,1648,2023.0,28.220631,-82.252295,2026-10-30
+"27289 St Andrews Ave, Wesley Chapel, FL 33544",Wesley Chapel,33544,2762,Single Family,4,2.5,1977,2024.0,28.246956,-82.364661,2026-10-30
+"1842 Tampa Bay Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2299,Single Family,4,2.0,1709,,28.184061,-82.343224,2026-10-30
+"30450 Birdhouse Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,2360,Single Family,4,2.5,1944,,28.247103,-82.311991,2026-10-29
+"1150 Helmsdale Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2640,Single Family,4,3.0,2888,,28.173953,-82.310743,2026-10-29
+"8099 Pelican Reed Cir, Wesley Chapel, FL 33545",Wesley Chapel,33545,2345,Single Family,4,3.0,2007,,28.273517,-82.3008,2026-10-26
+"28546 Tall Grass Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2010,Single Family,3,2.0,1626,,28.171462,-82.343946,2026-10-31
+"6610 Limerick Ave, New Port Richey, FL 34653",New Port Richey,34653,999,Single Family,2,1.0,672,1995.0,28.266997,-82.705436,2026-11-01
+"7437 Jenner Ave, New Port Richey, FL 34655",New Port Richey,34655,1775,Single Family,3,2.0,1283,,28.207592,-82.691376,2026-11-01
+"11706 Leda Ln, New Port Richey, FL 34654",New Port Richey,34654,2352,Single Family,3,2.0,1619,2003.0,28.270779,-82.621486,2026-10-29
+"6615 Crossbow Ln, New Port Richey, FL 34653",New Port Richey,34653,1495,Single Family,2,2.0,1082,1986.0,28.254179,-82.702737,2026-10-29
+"3504 Heron Island Dr, New Port Richey, FL 34655",New Port Richey,34655,2627,Single Family,3,2.5,2315,2006.0,28.208455,-82.675992,2026-10-29
+"8324 Bluebonnet Pl, New Port Richey, FL 34653",New Port Richey,34653,2240,Single Family,4,2.0,1445,,28.219633,-82.676804,2026-10-30
+"12130 Colony Lakes Blvd, New Port Richey, FL 34654",New Port Richey,34654,2530,Single Family,4,2.5,2871,,28.333698,-82.616522,2026-10-30
+"5047 Tangelo Dr, New Port Richey, FL 34652",New Port Richey,34652,1350,Single Family,2,1.0,744,1959.0,28.232662,-82.725183,2026-10-16
+"12159 Colony Lakes Blvd, New Port Richey, FL 34654",New Port Richey,34654,2085,Single Family,4,2.0,1968,,28.333761,-82.61759,2026-10-31
+"7713 Deer Foot Dr, New Port Richey, FL 34653",New Port Richey,34653,2030,Single Family,3,2.0,1755,,28.233578,-82.687308,2026-10-29
+"4916 Gulf Waters Dr, New Port Richey, FL 34652",New Port Richey,34652,1800,Townhouse,3,2.5,1607,2021.0,28.240394,-82.732445,2026-10-28
+"6220 12th Ave, New Port Richey, FL 34653",New Port Richey,34653,1515,Single Family,2,2.0,1050,,28.225694,-82.711464,2026-10-31
+"6413 Sutters Mill Rd, New Port Richey, FL 34653",New Port Richey,34653,1450,Single Family,3,2.0,1080,1977.0,28.220693,-82.708437,2026-10-29
+"10829 Littleton Isle Dr, New Port Richey, FL 34655",New Port Richey,34655,2900,Single Family,4,4.0,2404,,28.215036,-82.636215,2026-10-26
+"6035 Pointe Pleasant Blvd, Zephyrhills, FL 33545",Zephyrhills,33545,1900,Single Family,4,2.0,1415,,28.244949,-82.342735,2026-11-01
+"39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,2025,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-10-30
+"3189 Lytton Hall Dr, Zephyrhills, FL 33540",Zephyrhills,33540,1875,Single Family,4,2.0,1817,2020.0,28.203099,-82.161565,2026-10-31
+"28506 Tall Grass Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2380,Single Family,3,2.0,1607,,28.171587,-82.345303,2026-10-31
+"6245 Merrifield Dr, Zephyrhills, FL 33541",Zephyrhills,33541,2195,Single Family,4,2.0,1851,,28.248064,-82.238463,2026-10-31
+"1517 Firewheel Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2715,Single Family,4,3.0,1764,,28.179032,-82.330524,2026-10-30
+"5473 Magdelene Way, Zephyrhills, FL 33541",Zephyrhills,33541,2199,Single Family,4,2.0,1846,,28.236809,-82.227536,2026-10-29
+"38933 C Ave, Zephyrhills, FL 33542",Zephyrhills,33542,1050,Single Family,1,1.0,520,,28.226597,-82.172403,2026-10-30
+"39132 County Rd, 54 Unit 2184, Zephyrhills, FL 33542",Zephyrhills,33542,1400,Condo,2,2.0,864,1988.0,28.25091,-82.169528,2023-01-06
