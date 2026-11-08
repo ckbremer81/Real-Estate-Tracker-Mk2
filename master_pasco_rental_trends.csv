@@ -1080,3 +1080,43 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "28651 Seashell Ct, Zephyrhills, FL 33545",Zephyrhills,33545,1955,Single Family,3,2.0,1154,,28.246138,-82.341725,2026-11-06
 "5138 Hill Dr, Zephyrhills, FL 33542",Zephyrhills,33542,1300,Single Family,2,1.0,816,,28.232517,-82.196404,2026-11-06
 "39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,1905,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-11-06
+"2341 Tioga Dr, Land O Lakes, FL 34639",Land O Lakes,34639,2480,Single Family,3,2.0,1952,,28.191239,-82.416722,2026-11-07
+"3214 Macintosh Rd, Land O Lakes, FL 34639",Land O Lakes,34639,2495,Single Family,4,2.0,2332,,28.203311,-82.397903,2026-10-26
+"24726 Ravello St, Land O Lakes, FL 34639",Land O Lakes,34639,2770,Single Family,4,2.5,2142,,28.203083,-82.407081,2026-10-15
+"23200 Whitney Pl, Land O Lakes, FL 34639",Land O Lakes,34639,1920,Single Family,3,2.0,1470,,28.228141,-82.43231,2026-11-08
+"8806 Handel Loop, Land O Lakes, FL 34637",Land O Lakes,34637,2825,Single Family,4,3.0,2488,,28.28564,-82.475391,2026-11-06
+"4814 Wessex Way, Land O Lakes, FL 34639",Land O Lakes,34639,2345,Single Family,3,2.5,1806,,28.226811,-82.391906,2026-11-07
+"9436 Wellstone Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2345,Single Family,3,2.5,2091,,28.293807,-82.499026,2026-11-07
+"7042 Moss Ledge Run, Land O Lakes, FL 34637",Land O Lakes,34637,2420,Single Family,3,2.0,2091,,28.260023,-82.455356,2026-11-07
+"20356 Calla Lily Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2687,Single Family,4,2.5,1977,2022.0,28.214069,-82.47997,2026-11-07
+"22407 Bellini Cir, Land O Lakes, FL 34639",Land O Lakes,34639,2887,Single Family,4,3.0,2245,2022.0,28.215575,-82.444074,2026-11-07
+"4246 Whittner Dr, Land O Lakes, FL 34639",Land O Lakes,34639,2545,Single Family,4,2.0,1996,,28.215021,-82.432493,2026-11-06
+"20371 Calla Lily Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2872,Single Family,4,2.5,2449,2022.0,28.214582,-82.480027,2026-11-07
+"20243 Calla Lily Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2942,Single Family,4,2.5,2449,2022.0,28.212611,-82.480431,2026-11-06
+"20300 Calla Lily Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2652,Single Family,3,2.0,1700,2022.0,28.213711,-82.48038,2026-11-06
+"20585 Calla Lily Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2892,Single Family,4,2.5,2297,2023.0,28.212707,-82.47734,2026-11-06
+"27206 St Andrews Ave, Wesley Chapel, FL 33544",Wesley Chapel,33544,2587,Single Family,3,2.5,1685,2024.0,28.247415,-82.366101,2026-11-07
+"27537 St Andrews Ave, Wesley Chapel, FL 33544",Wesley Chapel,33544,2997,Single Family,4,3.0,2222,2023.0,28.247024,-82.361086,2026-11-07
+"4518 Pointe O Woods Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2895,Single Family,3,3.0,2533,,28.222574,-82.31392,2026-11-02
+"6342 Emerald Hills Way, Wesley Chapel, FL 33544",Wesley Chapel,33544,3012,Single Family,4,3.0,2222,2023.0,28.248708,-82.362519,2026-11-07
+"8484 Bower Bass Cir, Wesley Chapel, FL 33545",Wesley Chapel,33545,1050,Single Family,1,1.0,240,,28.279922,-82.287349,2026-11-08
+"6432 Tabogi Trl, Wesley Chapel, FL 33545",Wesley Chapel,33545,2040,Single Family,3,2.0,1211,,28.250469,-82.314554,2026-11-05
+"29433 Birds Eye Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2390,Single Family,3,2.5,1810,,28.177538,-82.329504,2026-11-04
+"1220 Charlesworth Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2095,Single Family,3,3.0,1559,,28.174662,-82.318476,2026-11-06
+"33939 Ackee Ln, Wesley Chapel, FL 33543",Wesley Chapel,33543,2842,Single Family,5,3.0,2525,2022.0,28.205449,-82.255343,2026-11-07
+"4538 Weasel Dr, New Port Richey, FL 34653",New Port Richey,34653,2170,Single Family,3,2.0,1530,,28.225365,-82.680888,2026-11-03
+"4302 Rudder Way, New Port Richey, FL 34652",New Port Richey,34652,1800,Single Family,2,2.0,1345,1978.0,28.227972,-82.743123,2026-10-06
+"4606 Sawgrass Blvd, New Port Richey, FL 34653",New Port Richey,34653,2780,Single Family,3,2.0,1780,,28.225971,-82.675527,2026-11-08
+"3683 Trophy Blvd, New Port Richey, FL 34655",New Port Richey,34655,1575,Condo,2,2.0,923,1974.0,28.212833,-82.657197,2026-09-02
+"8510 Houndstooth Enclave Dr, New Port Richey, FL 34655",New Port Richey,34655,2030,Single Family,3,2.5,1634,,28.201196,-82.674176,2026-10-29
+"4870 Mill Run Dr, New Port Richey, FL 34653",New Port Richey,34653,2090,Single Family,3,2.0,1756,,28.228303,-82.686189,2026-11-07
+"5537 Executive Dr, Apt C2, New Port Richey, FL 34652",New Port Richey,34652,1459,Condo,2,2.0,1000,2006.0,28.239788,-82.717186,2026-10-10
+"3650 Quinten Dr, New Port Richey, FL 34652",New Port Richey,34652,1700,Single Family,2,2.0,1128,,28.212649,-82.726431,2026-11-08
+"11706 Leda Ln, New Port Richey, FL 34654",New Port Richey,34654,2327,Single Family,3,2.0,1619,2003.0,28.270779,-82.621486,2026-11-05
+"2910 Yellowhammer Way, New Port Richey, FL 34655",New Port Richey,34655,2175,Single Family,3,2.5,1801,,28.201001,-82.673205,2026-11-06
+"8467 Druid Oaks Ln, New Port Richey, FL 34655",New Port Richey,34655,1949,Single Family,3,2.5,1634,,28.200887,-82.674864,2026-11-06
+"1517 Firewheel Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2645,Single Family,4,3.0,1764,,28.179032,-82.330524,2026-11-06
+"6167 Pina Colada St, Zephyrhills, FL 33542",Zephyrhills,33542,1870,Townhouse,3,2.5,1386,,28.246896,-82.186063,2026-11-02
+"39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,1900,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-11-08
+"28506 Tall Grass Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2245,Single Family,3,2.0,1607,,28.171587,-82.345303,2026-11-08
+"6409 Ashville Dr, Unit 1, Zephyrhills, FL 33542",Zephyrhills,33542,1905,Single Family,3,2.0,1232,2002.0,28.250746,-82.199059,2023-06-22
