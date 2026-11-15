@@ -1193,3 +1193,40 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "32152 Brookstone Dr, Zephyrhills, FL 33545",Zephyrhills,33545,2770,Single Family,4,2.5,3390,,28.228372,-82.28435,2026-11-09
 "6195 Pina Colada St, Zephyrhills, FL 33542",Zephyrhills,33542,2049,Single Family,3,2.5,1386,,28.247281,-82.186061,2026-11-12
 "6245 Merrifield Dr, Zephyrhills, FL 33541",Zephyrhills,33541,2140,Single Family,4,2.0,1851,,28.248064,-82.238463,2026-11-13
+"4603 Bexley Village Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2350,Townhouse,3,3.0,1615,,28.221628,-82.529966,2026-11-14
+"25135 Hyde Park Blvd, Land O Lakes, FL 34639",Land O Lakes,34639,2140,Single Family,3,2.0,1409,,28.202117,-82.400188,2026-11-15
+"7042 Moss Ledge Run, Land O Lakes, FL 34637",Land O Lakes,34637,2345,Single Family,3,2.0,2091,,28.260023,-82.455356,2026-11-14
+"22318 Blazing Star Run, Land O Lakes, FL 34637",Land O Lakes,34637,2800,Single Family,5,2.5,2215,,28.281204,-82.44721,2026-11-13
+"3418 Tarbolton Way, Land O Lakes, FL 34638",Land O Lakes,34638,2630,Single Family,3,3.0,2478,,28.207371,-82.524473,2026-11-13
+"20422 Falling Rock Dr, Land O Lakes, FL 34638",Land O Lakes,34638,2245,Single Family,4,2.0,1887,,28.202166,-82.47797,2026-11-14
+"30615 Double Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,1990,Single Family,3,2.0,1303,,28.243391,-82.309875,2026-11-15
+"28709 Seashell Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,1815,Single Family,3,2.0,1140,,28.246137,-82.341272,2026-11-15
+"1038 Blackwater Dr, # 1, Wesley Chapel, FL 33543",Wesley Chapel,33543,1895,Townhouse,2,3.0,1298,,28.172371,-82.316116,2026-11-14
+"33872 Night Lily Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2522,Single Family,4,2.5,1977,2023.0,28.203637,-82.256529,2026-11-14
+"1811 Thistle Ct, Wesley Chapel, FL 33543",Wesley Chapel,33543,2200,Single Family,3,2.0,1876,1983.0,28.183034,-82.340698,2026-11-14
+"1228 Throckmorton Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,1950,Townhouse,2,3.0,0,,28.17544,-82.3153,2026-11-14
+"29242 Birds Eye Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2049,Single Family,3,2.0,1810,,28.17718,-82.332414,2026-11-14
+"33839 Coddle Ct, Wesley Chapel, FL 33543",Wesley Chapel,33543,2260,Single Family,3,2.0,1620,,28.209017,-82.256394,2026-11-14
+"7907 Outerbridge St, Wesley Chapel, FL 33545",Wesley Chapel,33545,2600,Single Family,4,3.5,2559,,28.272219,-82.3141,2026-11-13
+"1900 Rensselaer Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2445,Single Family,3,2.0,1833,2003.0,28.184364,-82.30175,2026-11-14
+"1842 Tampa Bay Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2199,Single Family,4,2.0,1709,,28.184061,-82.343224,2026-11-13
+"4705 Whitetail Ln, New Port Richey, FL 34653",New Port Richey,34653,2470,Single Family,3,2.0,1850,,28.227373,-82.677466,2026-11-15
+"7645 Prospect Hill Cir, New Port Richey, FL 34654",New Port Richey,34654,2332,Single Family,4,2.0,1602,2006.0,28.270765,-82.630451,2026-11-14
+"4613 Casswell Dr, New Port Richey, FL 34652",New Port Richey,34652,2195,Single Family,3,2.0,1740,,28.231737,-82.737541,2026-11-12
+"9260 Via, Segovia, New Port Richey, FL 34655",New Port Richey,34655,2365,Single Family,4,2.0,2164,,28.237769,-82.661327,2026-11-14
+"7713 Deer Foot Dr, New Port Richey, FL 34653",New Port Richey,34653,1870,Single Family,3,2.0,1755,,28.233578,-82.687308,2026-11-14
+"8497 Houndstooth Enclave Dr, New Port Richey, FL 34655",New Port Richey,34655,2299,Single Family,3,2.5,2319,,28.201586,-82.674401,2026-11-13
+"2864 Coach Manors Way, New Port Richey, FL 34655",New Port Richey,34655,2199,Single Family,3,2.5,1801,,28.200487,-82.672512,2026-11-06
+"2851 Coach Manors Way, New Port Richey, FL 34655",New Port Richey,34655,2599,Single Family,4,2.5,2466,,28.200294,-82.672933,2026-11-11
+"7246 Riverbank Dr, New Port Richey, FL 34655",New Port Richey,34655,1550,Single Family,2,1.0,898,,28.214854,-82.694232,2026-11-11
+"5150 6th St, Apt 3, Zephyrhills, FL 33542",Zephyrhills,33542,900,Apartment,1,1.0,600,,28.232796,-82.182274,2026-11-14
+"28537 Seashell Ct, Zephyrhills, FL 33545",Zephyrhills,33545,1825,Single Family,4,2.0,1424,,28.246143,-82.343766,2026-11-14
+"28548 Seashell Ct, Zephyrhills, FL 33545",Zephyrhills,33545,1940,Single Family,4,2.0,1395,,28.245757,-82.34332,2026-11-14
+"28611 Seashell Ct, Zephyrhills, FL 33545",Zephyrhills,33545,1775,Single Family,3,2.0,1321,,28.246141,-82.342859,2026-11-14
+"30718 Birdhouse Dr, Zephyrhills, FL 33545",Zephyrhills,33545,1999,Single Family,3,2.5,1808,,28.248109,-82.308075,2026-11-14
+"35788 Jenny Lynne Cir, Zephyrhills, FL 33541",Zephyrhills,33541,2360,Single Family,4,2.0,1828,2017.0,28.234699,-82.225382,2026-10-30
+"38314 South Ave, Zephyrhills, FL 33542",Zephyrhills,33542,1500,Single Family,2,2.0,948,,28.229843,-82.182757,2026-09-22
+"32152 Brookstone Dr, Zephyrhills, FL 33545",Zephyrhills,33545,2660,Single Family,4,2.5,3390,,28.228372,-82.28435,2026-11-14
+"6215 Merrifield Dr, Zephyrhills, FL 33541",Zephyrhills,33541,2015,Single Family,3,2.0,1756,,28.247671,-82.238474,2026-11-11
+"6195 Pina Colada St, Zephyrhills, FL 33542",Zephyrhills,33542,1950,Single Family,3,2.5,1386,,28.247281,-82.186061,2026-11-14
+"39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,1885,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-11-15
