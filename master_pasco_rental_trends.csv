@@ -1267,3 +1267,41 @@ formattedAddress,city,zipCode,price,propertyType,bedrooms,bathrooms,squareFootag
 "4710 Buckeye St, Zephyrhills, FL 33542",Zephyrhills,33542,1285,Single Family,2,2.0,1056,,28.226016,-82.173735,2026-11-16
 "39049 Harlow Rose Dr, Zephyrhills, FL 33540",Zephyrhills,33540,1845,Single Family,3,2.0,1491,,28.202846,-82.172751,2026-11-16
 "3083 Kresterbrooke Ln, Zephyrhills, FL 33540",Zephyrhills,33540,2650,Single Family,5,2.5,2892,,28.202478,-82.163211,2026-11-11
+"2341 Tioga Dr, Land O Lakes, FL 34639",Land O Lakes,34639,2275,Single Family,3,2.0,1952,,28.191239,-82.416722,2026-11-20
+"8840 Gallantree Pl, Land O Lakes, FL 34637",Land O Lakes,34637,2000,Townhouse,3,3.0,1061,,28.285479,-82.449153,2026-11-20
+"25135 Hyde Park Blvd, Land O Lakes, FL 34639",Land O Lakes,34639,2110,Single Family,3,2.0,1409,,28.202117,-82.400188,2026-11-20
+"23200 Whitney Pl, Land O Lakes, FL 34639",Land O Lakes,34639,1855,Single Family,3,2.0,1470,,28.228141,-82.43231,2026-11-20
+"19053 Tilobe Loop, Land O Lakes, FL 34638",Land O Lakes,34638,2917,Single Family,5,3.0,2250,2006.0,28.296666,-82.499428,2026-11-19
+"10013 Coldwater Loop, Land O Lakes, FL 34638",Land O Lakes,34638,3207,Single Family,6,3.0,3400,2007.0,28.302727,-82.507159,2026-11-17
+"8806 Handel Loop, Land O Lakes, FL 34637",Land O Lakes,34637,2749,Single Family,4,3.0,2488,,28.28564,-82.475391,2026-11-17
+"1038 Blackwater Dr, # 1, Wesley Chapel, FL 33543",Wesley Chapel,33543,1800,Townhouse,2,3.0,1298,,28.172371,-82.316116,2026-11-20
+"30615 Double Dr, Wesley Chapel, FL 33545",Wesley Chapel,33545,1940,Single Family,3,2.0,1303,,28.243391,-82.309875,2026-11-20
+"3332 Chapel Creek Cir, Wesley Chapel, FL 33544",Wesley Chapel,33544,2450,Condo,3,2.0,1760,,28.204874,-82.36598,2026-11-19
+"28423 Meadowrush Way, Wesley Chapel, FL 33543",Wesley Chapel,33543,2060,Single Family,3,2.0,1492,,28.173441,-82.346334,2026-11-20
+"28564 Sweet Persimmon Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2600,Single Family,3,2.0,2021,2022.0,28.20759,-82.344095,2026-11-19
+"4208 Fennwood Ct, Wesley Chapel, FL 33543",Wesley Chapel,33543,1795,Townhouse,3,3.0,1667,,28.220516,-82.302155,2026-11-19
+"3414 Bridge Haven Dr, Wesley Chapel, FL 33543",Wesley Chapel,33543,2607,Single Family,4,2.5,2078,2022.0,28.206618,-82.254388,2026-11-19
+"8507 Alpine Meadow Ln, Wesley Chapel, FL 33545",Wesley Chapel,33545,1885,Single Family,3,2.5,1464,,28.280972,-82.299964,2026-10-29
+"27280 St Andrews Ave, Wesley Chapel, FL 33544",Wesley Chapel,33544,2792,Single Family,4,2.5,1977,2024.0,28.246667,-82.365107,2026-11-14
+"27688 St Andrews Ave, Wesley Chapel, FL 33544",Wesley Chapel,33544,2997,Single Family,4,3.0,2222,2023.0,28.247589,-82.358628,2026-11-19
+"3265 Woodland Brook Way, Wesley Chapel, FL 33543",Wesley Chapel,33543,3995,Single Family,5,4.5,3248,2023.0,28.204857,-82.27563,2026-11-09
+"8468 Lofty Timber Way, Wesley Chapel, FL 33545",Wesley Chapel,33545,1925,Single Family,3,2.5,1464,,28.280556,-82.300306,2026-10-29
+"5203 Blue Roan Way, Wesley Chapel, FL 33544",Wesley Chapel,33544,2035,Single Family,3,2.0,1513,,28.232243,-82.360394,2026-11-18
+"4947 Whistling Pines Ct, Wesley Chapel, FL 33545",Wesley Chapel,33545,2125,Single Family,3,2.0,1501,,28.229576,-82.280941,2026-11-02
+"6610 Limerick Ave, New Port Richey, FL 34653",New Port Richey,34653,900,Single Family,2,1.0,672,1995.0,28.266997,-82.705436,2026-11-20
+"7020 Washington St, New Port Richey, FL 34652",New Port Richey,34652,895,Single Family,1,1.0,0,,28.259218,-82.718613,2026-11-19
+"4129 Stratford Dr, New Port Richey, FL 34652",New Port Richey,34652,1450,Condo,2,2.0,1080,,28.223919,-82.745637,2026-11-19
+"4132 Foxboro Dr, New Port Richey, FL 34653",New Port Richey,34653,1950,Single Family,3,2.0,1823,,28.219656,-82.685271,2026-11-19
+"4122 Hampton Dr, New Port Richey, FL 34652",New Port Richey,34652,1545,Condo,2,2.0,1050,,28.221999,-82.74616,2026-11-19
+"3279 Piccard Loop, New Port Richey, FL 34655",New Port Richey,34655,1850,Single Family,2,2.0,1327,1984.0,28.205115,-82.683565,2026-11-20
+"10126 Ringling St, New Port Richey, FL 34655",New Port Richey,34655,2275,Single Family,3,2.0,1629,,28.209431,-82.647229,2026-10-29
+"5567 Sea Forest Dr, Apt 122, New Port Richey, FL 34652",New Port Richey,34652,1595,Condo,2,2.0,994,,28.240355,-82.734638,2026-09-29
+"4606 Sawgrass Blvd, New Port Richey, FL 34653",New Port Richey,34653,2645,Single Family,3,2.0,1780,,28.225971,-82.675527,2026-11-17
+"4850 Samara Dr, New Port Richey, FL 34652",New Port Richey,34652,1730,Single Family,3,2.0,1462,,28.230066,-82.72547,2026-11-14
+"12039 Colony Lakes Blvd, New Port Richey, FL 34654",New Port Richey,34654,2225,Single Family,4,2.0,1918,,28.33256,-82.615716,2026-11-17
+"11621 Bathgate Ct, New Port Richey, FL 34654",New Port Richey,34654,2610,Single Family,4,2.0,2027,,28.298591,-82.62249,2026-11-18
+"5621 10th St, Zephyrhills, FL 33542",Zephyrhills,33542,1395,Single Family,2,2.0,704,,28.239465,-82.180379,2026-11-20
+"36232 Misty Oak Unit Bldg 7 Dr, Unit 204, Zephyrhills, FL 33541",Zephyrhills,33541,1500,Condo,3,2.0,1325,,28.242856,-82.217158,2026-11-16
+"6195 Pina Colada St, Zephyrhills, FL 33542",Zephyrhills,33542,1899,Single Family,3,2.5,1386,,28.247281,-82.186061,2026-11-19
+"1517 Firewheel Dr, Zephyrhills, FL 33543",Zephyrhills,33543,2540,Single Family,4,3.0,1764,,28.179032,-82.330524,2026-11-18
+"7221 Bridgeview Dr, Zephyrhills, FL 33545",Zephyrhills,33545,2845,Single Family,4,3.0,3028,,28.262554,-82.288407,2026-11-18
